@@ -1032,7 +1032,7 @@ do
   --
   -- For independent modules, uncomment the convenience loader:
   require 'custom.plugins'
-  --
+  require 'custom.plugins.toggleterm'
   -- `custom.plugins` automatically loads files from that directory, but their
   -- order is unspecified. If plugins depend on each other, keep them in the same
   -- file and put their `vim.pack.add()` and `setup()` calls in the required order.
